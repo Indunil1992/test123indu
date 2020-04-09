@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "76f77c66-e144-4fa4-8fd3-8c7344231eb9": {
+        "id": "76f77c66-e144-4fa4-8fd3-8c7344231eb9",
+        "parent": null,
+        "name": "test123indu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test123indu.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "test123indua"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameteststgingany",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "3df2cf9d-f41e-4561-8781-2d2cbbaa8d1b": {
+            "id": "3df2cf9d-f41e-4561-8781-2d2cbbaa8d1b",
+            "name": "Test event",
+            "functionId": "76f77c66-e144-4fa4-8fd3-8c7344231eb9",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "76f77c66-e144-4fa4-8fd3-8c7344231eb9"
+    ],
+    "currentFileId": "76f77c66-e144-4fa4-8fd3-8c7344231eb9",
+    "resources": {
+      "apigusEast1sachithraAPInameteststgingany": {
+        "name": "apigusEast1sachithraAPInameteststgingany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/test/indusns": "iep52p",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test/stging",
+          "resourceName": "test/stging",
+          "resourceId": "3y9a7c",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test111",
+          "stageDeploymentId": "30ihet",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test123indu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586415408917
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test123indu",
+      "url": "https://github.com/Indunil1992/test123indu"
+    }
+  }
+}
